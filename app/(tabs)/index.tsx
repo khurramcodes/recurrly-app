@@ -1,10 +1,12 @@
 import "@/global.css";
 import { Link } from "expo-router";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+
+import { ScreenContainer } from "@/components/ScreenContainer";
 
 export default function App() {
   return (
-    <View className='flex-1 items-center justify-center bg-background'>
+    <ScreenContainer className='flex-1 bg-background p-5'>
       <Text className='text-xl font-bold text-success'>
         Welcome to Nativewind!
       </Text>
@@ -41,6 +43,6 @@ export default function App() {
         {" "}
         Claude Max Subscription{" "}
       </Link>
-    </View>
+    </ScreenContainer>
   );
 }

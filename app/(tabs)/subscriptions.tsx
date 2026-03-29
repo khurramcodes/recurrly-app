@@ -1,12 +1,12 @@
-import React from "react";
-import { Text, View } from "react-native";
+import { ScreenContainer } from "@/components/ScreenContainer";
+import { Text } from "react-native";
 
-const subscriptions = () => {
+const Subscriptions = () => {
   return (
-    <View>
+    <ScreenContainer className='flex-1 bg-background p-5'>
       <Text>subscriptions</Text>
-    </View>
+    </ScreenContainer>
   );
 };
 
-export default subscriptions;
+export default Subscriptions;

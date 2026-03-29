@@ -1,12 +1,12 @@
-import React from "react";
-import { Text, View } from "react-native";
+import { ScreenContainer } from "@/components/ScreenContainer";
+import { Text } from "react-native";
 
-const settings = () => {
+const Settings = () => {
   return (
-    <View>
+    <ScreenContainer className='flex-1 bg-background p-5'>
       <Text>settings</Text>
-    </View>
+    </ScreenContainer>
   );
 };
 
-export default settings;
+export default Settings;
